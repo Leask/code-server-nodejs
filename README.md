@@ -32,7 +32,7 @@ Quickstart guides for [Google Cloud](https://github.com/codercom/code-server/blo
 
 ### How to [secure your setup](https://github.com/codercom/code-server/blob/master/doc/security/ssl.md)?
 
-code-server uses a self-signed SSL certificate that may prompt your browser to ask you some additional questions before you proceed. Please [read here](https://github.com/codercom/code-server/blob/master/doc/self-hosted/index.md) for more information.
+code-server-nodejs uses a self-signed SSL certificate that may prompt your browser to ask you some additional questions before you proceed. Please [read here](https://github.com/codercom/code-server/blob/master/doc/self-hosted/index.md) for more information.
 
 ## Development
 

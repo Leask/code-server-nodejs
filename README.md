@@ -18,7 +18,7 @@ docker run -it -p 127.0.0.1:8443:8443 -v "${PWD}:/home/coder/project" leask/code
 	- All intensive computation runs on your server.
 	- You're no longer running excess instances of Chrome.
 
-![Screenshot](https://github.com/codercom/code-server/blob/master/doc/assets/ide.png)
+![Screenshot](https://raw.githubusercontent.com/codercom/code-server/master/doc/assets/ide.png)
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ code-server-nodejs uses a self-signed SSL certificate that may prompt your brows
 
 ### Future
 - **Stay up to date!** Get notified about new releases of code-server-nodejs.
-  ![Screenshot](https://github.com/codercom/code-server/blob/master/doc/assets/release.gif)
+  ![Screenshot](https://raw.githubusercontent.com/codercom/code-server/master/doc/assets/release.gif)
 - Windows support.
 - Electron and Chrome OS applications to bridge the gap between local<->remote.
 - Run VS Code unit tests against our builds to ensure features work as expected.

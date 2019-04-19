@@ -2,11 +2,13 @@
 
 [![MIT license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/codercom/code-server/blob/master/LICENSE)
 
-`code-server-nodejs` is [VS Code](https://github.com/Microsoft/vscode) with [Node.js](https://nodejs.org/) development environment running on a remote server, accessible through the browser. Based on [code-server](https://github.com/codercom/code-server) and [VS Code](https://github.com/Microsoft/vscode).
+`code-server-nodejs` is [VS Code](https://github.com/Microsoft/vscode) with [Node.js](https://nodejs.org/) development environment running on a remote server, accessible through the browser.
+
+Based on [code-server](https://github.com/codercom/code-server) and [VS Code](https://github.com/Microsoft/vscode).
 
 Try it out:
 ```bash
-docker run -it -p 127.0.0.1:8443:8443 -v "${PWD}:/home/coder/project" codercom/code-server --allow-http --no-auth
+docker run -it -p 127.0.0.1:8443:8443 -v "${PWD}:/home/coder/project" leask/code-server-nodejs --allow-http --no-auth
 ```
 
 - Code on your Chromebook, tablet, and laptop with a consistent dev environment.
@@ -20,15 +22,15 @@ docker run -it -p 127.0.0.1:8443:8443 -v "${PWD}:/home/coder/project" codercom/c
 
 ## Getting Started
 
-For detailed instructions and troubleshooting, see the [self-hosted quick start guide](doc/self-hosted/index.md).
+For detailed instructions and troubleshooting, see the [self-hosted quick start guide](https://github.com/codercom/code-server/blob/master/doc/self-hosted/index.md).
 
 ### Docker
 
 See docker oneliner mentioned above. Dockerfile is at [/Dockerfile](/Dockerfile).
 
-Quickstart guides for [Google Cloud](doc/admin/install/google_cloud.md), [AWS](doc/admin/install/aws.md), and [Digital Ocean](doc/admin/install/digitalocean.md).
+Quickstart guides for [Google Cloud](https://github.com/codercom/code-server/blob/master/doc/admin/install/google_cloud.md), [AWS](https://github.com/codercom/code-server/blob/master/doc/admin/install/aws.md), and [Digital Ocean](https://github.com/codercom/code-server/blob/master/doc/admin/install/digitalocean.md).
 
-### How to [secure your setup](/doc/security/ssl.md)?
+### How to [secure your setup](https://github.com/codercom/code-server/blob/master/doc/security/ssl.md)?
 
 code-server uses a self-signed SSL certificate that may prompt your browser to ask you some additional questions before you proceed. Please [read here](https://github.com/codercom/code-server/blob/master/doc/self-hosted/index.md) for more information.
 
@@ -39,8 +41,8 @@ code-server uses a self-signed SSL certificate that may prompt your browser to a
 - Creating custom VS Code extensions and debugging them doesn't work.
 
 ### Future
-- **Stay up to date!** Get notified about new releases of code-server.
-  ![Screenshot](/doc/assets/release.gif)
+- **Stay up to date!** Get notified about new releases of code-server-nodejs.
+  ![Screenshot](https://github.com/codercom/code-server/blob/master/doc/assets/release.gif)
 - Windows support.
 - Electron and Chrome OS applications to bridge the gap between local<->remote.
 - Run VS Code unit tests against our builds to ensure features work as expected.
@@ -53,7 +55,7 @@ At the moment we can't use the official VSCode Marketplace. We've created a cust
 
 Use the `--disable-telemetry` flag or set `DISABLE_TELEMETRY=true` to disable tracking ENTIRELY.
 
-We use data collected to improve code-server.
+code-server `(NOT code-server-nodejs)` use data collected to improve code-server.
 
 ## License
 

@@ -1,4 +1,4 @@
-FROM codercom/code-server
+FROM codercom/code-server:v2
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && \
     sudo apt-get install -y gcc g++ make iputils-ping httpie nodejs && \
